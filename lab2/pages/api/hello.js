@@ -4,6 +4,6 @@ export default function handler(req, res) {
   res.status(200).json({ name: "John Doe" });
 }
 
-export default function PUT(req,res){
-  res.status(200).json({msg: "updated"})
-}
+// export default function PUT(req,res){
+//   res.status(200).json({msg: "updated"})
+// }
